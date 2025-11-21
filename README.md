@@ -67,6 +67,7 @@ Based on the generated mining data, this dashboard reveals:
 - **Plotly** - Interactive visualizations
 - **NumPy** - Numerical computations
 
+
 ## 🚀 Installation
 
 1. Clone the repository:
@@ -74,23 +75,11 @@ Based on the generated mining data, this dashboard reveals:
 git clone https://github.com/Axulo-Inc/mining-data-dashboard.git
 cd mining-data-dashboard
 
-## 🚀 Installation
-
-1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/mining-data-dashboard.git
-cd mining-data-dashboard
-\`\`\`
-
 2. Install required packages:
-\`\`\`bash
 pip install -r requirements.txt
-\`\`\`
 
 3. Run the application:
-\`\`\`bash
 streamlit run app.py
-\`\`\`
 
 ## 📁 Project Structure
 
