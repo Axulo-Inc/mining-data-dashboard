@@ -10,10 +10,10 @@ A comprehensive Streamlit-based dashboard for analyzing mining operations data, 
 
 ## 📸 Dashboard Screenshots
 
-### Overview
+### Main Dashboard Overview
 ![Dashboard Overview](screenshots/dashboard-overview.png)
 
-### Analysis Sections
+### Core Analysis Sections
 | Stope Width Analysis | Equipment Utilization |
 |---------------------|----------------------|
 | ![Stope Analysis](screenshots/stope-analysis.png) | ![Equipment Utilization](screenshots/equipment-utilization.png) |
@@ -66,7 +66,6 @@ Based on the generated mining data, this dashboard reveals:
 - **Streamlit** - Web application framework
 - **Plotly** - Interactive visualizations
 - **NumPy** - Numerical computations
-
 
 ## 🚀 Installation
 
