@@ -1,6 +1,43 @@
 # ⛏️ Mining Data Dashboard
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-red.svg)
+![Pandas](https://img.shields.io/badge/Pandas-2.1.0-green.svg)
+![Plotly](https://img.shields.io/badge/Plotly-5.15.0-purple.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
+
 A comprehensive Streamlit-based dashboard for analyzing mining operations data, including stope widths, blast sequencing, and equipment utilization.
+
+## 📸 Dashboard Screenshots
+
+### Overview
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+### Analysis Sections
+| Stope Width Analysis | Equipment Utilization |
+|---------------------|----------------------|
+| ![Stope Analysis](screenshots/stope-analysis.png) | ![Equipment Utilization](screenshots/equipment-utilization.png) |
+
+| Blast Sequencing | Equipment Performance |
+|------------------|----------------------|
+| ![Blast Sequencing](screenshots/blast-sequencing.png) | ![Equipment Performance](screenshots/equipment-performance-summary.png) |
+
+### Technical Analysis
+| Distribution Analysis | Zone Analysis |
+|----------------------|---------------|
+| ![Distribution](screenshots/distribution-of-stopewidth.png) | ![Zone Analysis](screenshots/stopewidth-distribution-by-zone.png) |
+
+| Individual Stope Tracking | Multi-Stope Comparison |
+|--------------------------|------------------------|
+| ![Stope 05](screenshots/stopewidth-over-time-stope-05.png) | ![All Stopes](screenshots/stopwidth-over-time.png) |
+
+## 🎯 Key Insights from Sample Data
+
+Based on the generated mining data, this dashboard reveals:
+- **Average stope width**: 15.23m (typical for bulk mining operations)
+- **Equipment utilization**: 66.9% (good operational efficiency)  
+- **Width variation**: 19.9% (moderate geological consistency)
+- **Zone performance**: Comparative analysis across North, South, East, West zones
 
 ## 📊 Features
 
@@ -22,32 +59,6 @@ A comprehensive Streamlit-based dashboard for analyzing mining operations data, 
 - Fuel consumption tracking
 - Performance metrics by equipment ID
 
-## 📸 Screenshots
-
-### Dashboard Overview
-![Dashboard Overview](screenshots/dashboard-overview.png)
-
-### Technical Analysis
-| Stope Width by Zone | Distribution Analysis |
-|---------------------|----------------------|
-| ![Zone Analysis](screenshots/zone-analysis.png) | ![Distribution](screenshots/distribution.png) |
-
-| Zone Distribution | Individual Stope Tracking |
-|-------------------|--------------------------|
-| ![Zone Distribution](screenshots/zone-distribution.png) | ![Stope 05](screenshots/stope-05-tracking.png) |
-
-| Multi-Stope Comparison |
-|------------------------|
-| ![All Stopes](screenshots/all-stopes-comparison.png) |
-
-## 🎯 Key Insights from Sample Data
-
-Based on the generated mining data, this dashboard reveals:
-- **Average stope width**: 15.23m (typical for bulk mining operations)
-- **Equipment utilization**: 66.9% (good operational efficiency)  
-- **Width variation**: 19.9% (moderate geological consistency)
-- **Zone performance**: Comparative analysis across North, South, East, West zones
-
 ## 🛠️ Tech Stack
 
 - **Python 3.8+**
@@ -55,6 +66,13 @@ Based on the generated mining data, this dashboard reveals:
 - **Streamlit** - Web application framework
 - **Plotly** - Interactive visualizations
 - **NumPy** - Numerical computations
+
+## 🚀 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Axulo-Inc/mining-data-dashboard.git
+cd mining-data-dashboard
 
 ## 🚀 Installation
 
@@ -81,6 +99,7 @@ mining-data-dashboard/
 ├── app.py                 # Main Streamlit application
 ├── requirements.txt       # Python dependencies
 ├── README.md             # Project documentation
+├── screenshots/          # Dashboard screenshots
 ├── utils/
 │   ├── data_loader.py    # Data generation and loading
 │   └── calculations.py   # Statistical calculations
@@ -97,12 +116,11 @@ mining-data-dashboard/
 3. **Interactive Charts**: Hover over charts for detailed information
 4. **Real-time Metrics**: View key performance indicators in the sidebar
 
-## 📈 Sample Data
+## 📈 Data Sources
 
-The application includes generated sample data that demonstrates:
-- Stope width measurements across different zones
-- Blast sequencing data with fragmentation metrics
-- Equipment utilization rates and maintenance records
+The dashboard supports both:
+- Sample Data: Automatically generated realistic mining data
+- Real CSV Data: Import your own mining operation data by placing CSV files in the data/ directory
 
 ## 🔧 Customization
 
@@ -125,8 +143,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Authors
 
-- Your Name - [Your GitHub Profile](https://github.com/Axulo-Inc)
-
+- **Thabang Motsoahae** - [Axulo-Inc](https://github.com/Axulo-Inc)
 ## 🙏 Acknowledgments
 
 - Streamlit team for the amazing framework
